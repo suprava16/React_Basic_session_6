@@ -1,0 +1,19 @@
+.flex-container{
+  background-color: crimson;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-start/flex-end/space-around/space-between/space-evenly; */
+    /* height: 600px;
+    align-items: stretch/flex-start/flex-end/center; */
+    flex-wrap: wrap;
+
+
+}
+.flex-item{
+  background-color: darksalmon;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  width: 300px;
+
+}
