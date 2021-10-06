@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // //regular function
+    // function show(){
+    //   document.write("regular function <br/>");
+    // }
+    // show();
+    // show();
+
+    //arrow function
+    // show =()=>{
+    //   document.write("arrow function")
+    // }
+    // show()
+
+    //regular function with parameter
+    // function myFun(a,b){
+    //     sum=a+b;
+    //     document.write(sum);
+    // }
+    // myFun(30,50)
+
+    //arrow function with parameter
+    // myFun = (a,b) => {
+    //   sum = a + b;
+    //   document.write(sum);
+    // }
+    // myFun(60,69)
+
+    //arrow function with return statement
+    // myFun = (a,b) => a+b
+
+    // var total=myFun(60,69)
+    // document.write(total)
+
+    //default value
+    //  myFun = (a=5,b=10) => {
+    //   sum = a + b;
+    //   document.write(sum);
+    // }
+    // myFun()
+
+    //rest parameter
+    myFun =(a,b,...args)=>{
+document.write(args);
+document.write("<br/>")
+document.write(a)
+document.write("<br/>")
+document.write(b)
+document.write("<br/>")
+document.write(args[1]);
+    }
+    myFun(50,20,70,10)
+  </script>
+</body>
+
+</html>
