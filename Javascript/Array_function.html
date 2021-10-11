@@ -9,7 +9,7 @@
 <body>
   <script>
     var arr=[30,50,20,70,80]
-    var arr1=["Suprava","Sriya","Riya","Gita","Aman","Alok"];
+    var arr1=["Suprava","Sriya","Riya","Gita","Aman","Sriya","Alok"];
 
     //sort() function
     // document.write(arr1);
@@ -44,10 +44,32 @@
 
 //slice() function
 
-document.write(arr1);
-document.write("<br/>");
-var arr2=arr1.slice(1,7);
-document.write(arr2)
+// document.write(arr1);
+// document.write("<br/>");
+// var arr2=arr1.slice(1,6);
+// document.write(arr2)
+
+//splice() function
+// document.write(arr1);
+// document.write("<br/>");
+// arr1.splice(4,2,"XYZ","PQR");
+// arr1.splice(3,3)
+// document.write(arr1)
+
+//filter() function
+// var age=[30,12,10,38,8,55,60]
+// var b=age.filter((a)=> a >=18)
+// document.write(b +"<br/>");
+
+//includes() function
+// var a=arr1.includes("sriya");
+// document.write(a)
+
+//indexOf() function
+var b=arr1.lastIndexOf("Sriya");
+document.write(b)
+
+//lastIndexOf()
 
   </script>
 </body>
