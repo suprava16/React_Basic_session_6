@@ -12,14 +12,33 @@
     fname:"suprava",
     lname:"padhi",
     email:"suprava@gmail.com",
-    hobbies:["singing","dancing","crafting"]
+    hobbies:["singing","dancing","crafting"],
+    fullName:function(){
+      console.log(this)
+      return this.fname;
+    },
+    // fullName:()=>{
+    //  console.log(this)
+    //   return obj.fname;
+    // }
+
+    address:{
+      city:"bbsr",
+      state:"odisha"
+    }
+
+
   }
 
   // document.write(obj)
-  console.log(obj)
-  document.write(obj.fname +" "+obj.lname)
-  document.write("<br>")
-  document.write(obj.hobbies[1])
+  // console.log(obj)
+  // document.write(obj.fname +" "+obj.lname)
+  // document.write("<br>")
+  // document.write(obj.hobbies[1])
+  // document.write("<br>")
+  document.write(obj.fullName());
+  document.write(obj.address.city)
+
   </script>
 </body>
 </html>
