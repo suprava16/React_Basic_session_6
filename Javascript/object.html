@@ -13,14 +13,14 @@
     lname:"padhi",
     email:"suprava@gmail.com",
     hobbies:["singing","dancing","crafting"],
-    fullName:function(){
-      console.log(this)
-      return this.fname;
+    // fullName:function(){
+    //   console.log(this)
+    //   return this.fname;
+    // },
+    fullName:()=>{
+     console.log(this)
+      return obj.fname;
     },
-    // fullName:()=>{
-    //  console.log(this)
-    //   return obj.fname;
-    // }
 
     address:{
       city:"bbsr",
@@ -37,7 +37,7 @@
   // document.write(obj.hobbies[1])
   // document.write("<br>")
   document.write(obj.fullName());
-  document.write(obj.address.city)
+   document.write(obj.address.city)
 
   </script>
 </body>
